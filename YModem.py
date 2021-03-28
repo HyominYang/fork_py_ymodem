@@ -9,7 +9,7 @@ import string
 import logging
 logging.basicConfig(level = logging.DEBUG, format = '%(asctime)s - %(levelname)s - %(message)s')
 
-from YMTask import SendTask, ReceiveTask
+from .YMTask import SendTask, ReceiveTask
 
 # ymodem data header byte
 SOH = b'\x01'
